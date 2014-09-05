@@ -7,6 +7,8 @@ glitch technique using [ndarrays](http://github.com/mikolalysenko/ndarray).
 Works in the browser using [browserify](http://browserify.org/), or server-side
 with Node.
 
+[![ndarray-pixel-sort](http://imgur.com/rVeSJIw.png)](http://hughsk.io/ndarray-pixel-sort)
+
 ## Usage
 
 [![NPM](https://nodei.co/npm/ndarray-pixel-sort.png)](https://nodei.co/npm/ndarray-pixel-sort/)
