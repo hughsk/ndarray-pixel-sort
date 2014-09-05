@@ -1,0 +1,43 @@
+{
+  "name": "ndarray-pixel-sort",
+  "version": "1.0.0",
+  "description": "A JS implementation of Kim Asendorf's pixel sort glitch technique using ndarrays",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "browserify test.js -o bundle.js",
+    "test": "beefy test.js:bundle.js --open"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "object-pool": "^0.1.0"
+  },
+  "devDependencies": {
+    "baboon-image": "^1.0.0",
+    "lena": "^1.0.0",
+    "ndarray-canvas": "0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/ndarray-pixel-sort.git"
+  },
+  "keywords": [
+    "glitch",
+    "art",
+    "browserify",
+    "isomorphic",
+    "image",
+    "manipulation",
+    "pixel",
+    "sort",
+    "ndarray"
+  ],
+  "homepage": "https://github.com/hughsk/ndarray-pixel-sort",
+  "bugs": {
+    "url": "https://github.com/hughsk/ndarray-pixel-sort/issues"
+  }
+}
